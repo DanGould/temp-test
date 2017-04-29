@@ -1,0 +1,9 @@
+{
+  "name": "temp-test",
+  "version": "1.0.0",
+  "description": "An application to learn international temperature Units like a language",
+  "main": "index.js",
+  "repository": "https://github.com/DanGould/temp-test.git",
+  "author": "Daniel Gould <dan@dannygould.com>",
+  "license": "LicenseRef-LICENSE"
+}
