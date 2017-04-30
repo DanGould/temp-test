@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <title>Temp Test</title>
+</head>
+<body>
+  <div class=container>
+    <header>
+       <div class="scoreboard">
+        <div class="score shadow">
+          <div class="score__title">streak</div>
+          <div id="streak" class="score__number">0</div>
+        </div>
+        <div class="score shadow">
+          <div class="score__title">best</div>
+          <div id="best" class="score__number">0</div>
+        </div>
+      </div>
+      <h1 class="title">TEMP TEST</h1>
+      <h2 class="description">Learn units like a language</h2>
+    </header>
+    <div class="game shadow">
+      <div>
+      <span class="feedback">Check your temperature</span>
+      </div>
+      <div>
+        <!-- contents of given get modified -->
+        <div class="temp-row">
+          <div class="temp-box"><span class="given temperature shadow">38</span><label>&deg;C</label></div>
+        </div>
+        <div class="temp-row">=</div>
+        <div class="temp-row">
+          <button class="increment shadow shadow--dyn">-10</button>
+          <button class="increment shadow shadow--dyn">-1</button>
+          <div class="temp-box">
+            <label>&deg;F</label>
+            <input class="guess-input temperature shadow shadow--dyn" type="number" placeholder="0"/>
+          </div>
+          <button class="increment shadow shadow--dyn">+1</button>
+          <button class="increment shadow shadow--dyn">+10</button>
+        </div>
+      </div>
+      <div><button class="guess-button shadow shadow--dyn">guess</button></div>
+    </div>
+
+    <footer>
+      <p>Built for bu_hacks 2017</p>
+      <p>&copy; copyright <a href="builds.cc">BUILDs</a> 2017</p>
+    </footer>
+  </div>
+<script src="temp.js"></script>
+</body>
+</html>
